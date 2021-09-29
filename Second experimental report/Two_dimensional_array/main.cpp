@@ -17,12 +17,12 @@ void get_twodim(twodim&s,int row,int col)
 float & val(twodim&s, int i,int j)
 {
 	//返回i行j列的值
-    return s.a[i * j];
+    return s.a[(i - 1) * s.c + j];
 }
 void free_twodim(twodim &s)
 {
 	//释放数组空间
-    delete s.a;
+    delete[] s.a;
 }
 int main()
 {
