@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "exception": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "xiosbase": "cpp",
+        "xlocnum": "cpp",
+        "xstring": "cpp",
+        "iostream": "cpp"
+    }
+}
